@@ -1,0 +1,445 @@
+html{font-family: "Roboto",sans-serif;;
+    font-size: 10px;
+}
+
+body{margin:0;
+    background:#dbdbdb;
+    padding:0;}
+.clear-both{clear:both;}
+
+.m-wrapper{width:100%}
+
+.frames{
+    padding:0px 24px;
+}
+
+.header{
+    width:100%;
+    height: 32px;
+    /* position: fixed;
+    top:0;
+    z-index: 1000; */
+}
+
+.header-top{width:100%;height: 32px;
+    background:#d52220;font-size:12px;
+}
+.control-top{height:32px;
+    background:#d52220;
+    display: flex;
+}
+#ctt{line-height: 30px;padding-right: 18px;
+    font-weight: 600;
+    color:   white;
+    cursor: pointer;
+}
+/* content................................................................................................... */
+.content{
+    /* margin-top: 144px; */
+    width: 100%;
+    height:auto;
+    box-sizing: border-box;
+    background: #dbdbdb;
+}
+.content-top{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width:100%;
+    height: 64px;
+    background:#ee2624;
+    font-size:12px;
+}
+.interact-area{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+.logo-sendo{width:110px;height:50px;}
+.logo-sendo img{padding-top: 14px;}
+.search-area{display: flex;padding-top: 12px;box-sizing: border-box;} 
+.search-input input{width: 100%;height: 40px;
+     padding:8px 16px;
+     border-radius: 4px;
+     border:white;
+     box-sizing: border-box;
+    }
+.menu-top{margin-top: 6px;}
+.search-galss button{height: 40px;width: 40px;
+    border:white;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+.search-area i{height: 24px;width: 24px;
+}
+.bag-account{display: flex;margin-top: 15px;
+}
+/* .bag{} */
+.login{padding: 7px 16px;
+    border-radius:5px;
+    border:white
+}
+.login a
+{
+    text-decoration: none;
+}
+.signup{padding:6px 0px;
+    background:#ee2624;
+    color: white;
+    border:#ee2624;
+}
+
+.content-top-1{
+    position: sticky;
+    top: 64px;
+    z-index: 1000; 
+    height: 48px;
+    width:100%;
+    overflow: hidden;
+}
+.content-top-1 .mmn{
+    overflow: hidden;
+}
+.main-menu-top{width: 100%;height:48px;
+    background:#ee2624;
+    display: flex;
+}
+.mmn {
+    font-size: 16px;line-height: 50px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.mmn a{
+    text-decoration: none;
+    color: white;
+}
+.main-menu-bot .mmn a{
+    text-decoration: none;
+    color: white;
+}
+.content-top-2{
+    height:120px;
+    background: white;
+}
+.main-menu-bot{width:100%;height:120px;
+    display:flex ;
+    box-sizing: border-box;
+}
+.main-menu-bot a{text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: block;
+    justify-items: center;
+    flex-direction: column;
+    display: grid;
+}
+.mnb{text-align: center;  
+    padding: 16px;
+    justify-content: center;
+}
+.img-mnb{height: 44px;width: 44px;}
+
+.baner-area-1{
+    padding-top: 16px;
+    background: white;
+} 
+.baner-area-1 a{
+    width:100%;
+}
+/* .baner-area-1 img{} */
+.row{
+    box-sizing: border-box;
+    margin: 0 !important;
+}
+.page-pro{text-decoration: none;
+    color:black ;
+}
+.page-pro:hover{
+    color: black;
+}
+.row #pro{
+    border-radius: 4px;
+    margin: 8px 0px;
+    overflow: hidden;
+}
+.row #pro:hover{
+    box-shadow:2px 2px 2px 2px rgb(0 0 0 / 13%);
+}
+.pro-status{
+    padding:8px;
+    overflow: hidden;
+}
+.n-pro{margin: 8px 0 4px;
+    overflow: hidden;
+}
+.n-pro h5 {
+    height: 15px;
+    overflow: hidden;
+} 
+.price-pro{font-weight: 700;
+}
+.adr-nbs{
+    display: flex;
+    justify-content: space-between;
+}
+.interac-area-pro{
+    background: #dbdbdb;
+}
+
+/* file chi-tiet.html ................................................................*/
+.address{
+    margin:8px; 
+}
+.address ol
+{
+    display: flex;
+    list-style: none;
+}
+.address li a
+{
+    font-size: 16px;
+    padding-right: 8px;
+    text-decoration: none;
+}
+.decription{
+    background: white;
+    border-radius: 9px; 
+    display: flex;
+}
+.img-product{
+    padding: 24px;
+}
+.info-product
+{
+    padding: 24px;
+} 
+.info-product .n-pro
+{
+    
+}
+.info-product .price-pro
+{
+    color: red;
+    font-size: 24px;
+}
+.info-product .nbs-pro
+{
+    margin-top: 40px;
+}
+.info-product .nbs-pro span
+{
+    font-size: 12px;
+    margin-right: 3px;
+}
+.info-product .choose-nb
+{
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    border: none;
+}
+.info-product .choose-nb button
+{
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px; 
+}
+.info-product .choose-nb input
+{
+    height: 30px;
+    width: 40px;
+    border: none;
+    font-size: 24px;
+    padding-left:14px ;
+}
+.info-product .choose-nb h5
+{
+    margin-right: 50px;
+}
+.info-product .add-cart-buy
+{
+    margin-top: 18px;
+    display: flex;
+}
+.add-cart{padding: 4px;}
+.add-cart button{
+    width: 100%;
+    border:none;
+    border-radius: 6px;
+    background: #dbdbdb;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 10px;
+} 
+.buy{padding: 4px;}
+.buy button
+{
+    width: 100%;
+    border:none;
+    color: white;
+    border-radius: 6px;
+    background:#ee2624;
+    padding: 10px 14px;
+    text-align: center;
+    font-size: 10px;
+}
+.user-endow
+{
+    margin: 20px 0;
+    display: flex; 
+    justify-content: space-between;
+}
+.endow-freeship{
+    display: flex;
+    align-items: center;
+}
+.endow-freeship img{
+    width: 24px; height: 24px;
+    margin-right:10px ;
+}
+.user-benefit{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.benefit-refund{
+    display: flex;
+}
+.benefit-refund i{
+    margin-right: 10px;
+    color: #028137;
+}
+.product-like h3{
+    margin-top: 20px;
+}
+/* footer .......................................................................................*/
+.footer{height:auto;}
+.footer-top{margin:16px 0px;}
+.interac-area-2{
+    text-align: center;
+}
+.interac-area-2 a{
+    text-decoration: none;
+    color: black;
+}
+.interac-area-2 img{height: 133px;height: 88px;
+    margin-bottom:12px; 
+}
+
+.footer-mid{
+    padding-top:24px;
+    padding-bottom: 24px; 
+    background: #dbdbdb;
+}
+.footer-mid ul li{
+    list-style: none;
+    line-height: 20px;
+}
+.footer-mid ul{padding: 0px;}
+.footer-mid a{
+    text-decoration: none;
+    color:black;
+    font-size: 12px;
+}
+.about-we{justify-items: left;}
+.for-customer{justify-items: left;}
+.dow-app img{ 
+    height:40px;
+    width: 120px;
+    margin: 4px;
+    display: flex;
+}
+.app{
+    box-sizing: border-box;
+    width:100%;
+}
+.footer-bot
+{
+    padding:24px;
+    justify-content: space-between;
+    background:#27343e;
+    color: snow;
+}
+.info-compan{
+    line-height: 26px;
+    font-size: 12px;
+}
+.info-compan img
+{
+    width: 108px;height: 33px;
+} 
+.email-text-color{
+    color: white;
+    text-decoration:none ;
+
+}
+.login-two{
+    justify-content: center;
+
+}
+.login-two h5{
+    margin-bottom: 13px;
+}
+.login-two input{
+    width: 50%;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    padding-left: 4px; ;
+}
+.login-two button{
+    width: 18%;
+    height: 30px;
+    border-radius: 4px;
+    border:none; 
+    background: #ee2624;
+    color: white;
+    font-size: 13px;
+}
+
+/* search ...............................................................*/
+.admin-interac {
+    display: flex;
+}
+.admin-button
+{
+    border: none;
+    border-radius: 4px;
+}
+.admin-button a
+{
+    text-decoration: none;
+    color: #ee2624;
+}
+.admin-interac-one{
+    display: flex;
+}
+.admin-interac-one form{
+    display: grid;
+}
+.admin-interac-one input{
+    border: none;
+    border-radius: 4px;
+}
+
+.admin-interac-top-left table{
+    width :100%;
+}  
+.admin-interac-top-left form input{
+    width: 90%;
+}
+.admin-interac-top-right{
+    text-decoration: none;
+}
+.admin-interac-top-right ul li{
+    list-style: none;
+    color: black;
+}
+.admin-input{
+    border: none;
+    border-radius: 3px;
+}
+/* edit........................................... */
